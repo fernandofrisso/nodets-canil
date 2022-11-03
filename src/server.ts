@@ -32,7 +32,7 @@ server.use(mainRoutes);
 
 server.use((req, res) => {
 
-    res.send('pagina não econtrada')
+    res.render('pages/404');
 
 })
 
